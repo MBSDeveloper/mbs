@@ -65,7 +65,7 @@ h5 {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-background: url("Laylout/images/contact.png") left center no-repeat;
+background: url("../Layout/images/contact.png") left center no-repeat;
 position: relative;
 }
 .contact:before {
