@@ -28,7 +28,16 @@
       emailjs.init("mn2IZb5Ehj1St4dr2");
    })();
 </script>
-
+<script>
+   function sendMail(){
+    let parms ={name:document.getElementById("name").value,
+                email:document.getElementById("email").value,
+                subject:document.getElementById("subject").value,
+                message:document.getElementById("message").value,
+            }
+            emailjs.send("service_8ij1dn6","template_vq8g1ir",parms).then(alert("Email Sent!!!."))
+   } 
+ </script>
     </head> 
 <body> 
     <div class="inner-part">
