@@ -1,4 +1,11 @@
- 
+   function SendMail(){
+    let parms ={name:document.getElementById("name").value,
+                email:document.getElementById("email").value,
+                subject:document.getElementById("subject").value,
+                message:document.getElementById("message").value,
+            }
+            emailjs.send("service_8ij1dn6","template_vq8g1ir",parms).then(alert("Email Sent!!!."))
+   } 
  
 jQuery(function ($) {
 	'use strict';
