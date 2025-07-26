@@ -1,1 +1,390 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>MB services</title> 
+        <!-- Favicon
+        ================================================== -->
+        <link rel="icon" type="Layout/image/logo.png" href="Layout/images/logo.png"> 
+
+        <link rel="stylesheet" href="Layout/plugins/bootstrap/bootstrap.min.css">
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="Layout/plugins/fontawesome/css/all.min.css">
+        <!-- Animation -->
+        <link rel="stylesheet" href="Layout/plugins/animate-css/animate.css">
+        <!-- slick Carousel -->
+        <link rel="stylesheet" href="Layout/plugins/slick/slick.css">
+        <link rel="stylesheet" href="Layout/plugins/slick/slick-theme.css">
+        <!-- Colorbox -->
+        <link rel="stylesheet" href="Layout/plugins/colorbox/colorbox.css">
+        <!-- Template styles-->
+        <link rel="stylesheet" href="Layout/css/style.css">
+        <link href="Layout/css/Layout_style.css" rel="stylesheet" />
+              <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+
+ <script type="text/javascript">
+   (function(){
+      emailjs.init("mn2IZb5Ehj1St4dr2");
+   })();
+</script>
+<script>
+   function sendMail(){
+    let parms ={name:document.getElementById("name").value,
+                email:document.getElementById("email").value,
+                subject:document.getElementById("subject").value,
+                message:document.getElementById("message").value,
+            }
+            emailjs.send("service_8ij1dn6","template_vq8g1ir",parms).then(alert("Your message has been sent. Thank you!"))
+   } 
+ </script>
+    </head> 
+<body> 
+    <div class="inner-part">
+        <header id="header" class="header-part">
+            <div class="white-color">
+                <div class="container_box">
+                    <div class="logo-area">
+                        <div class="row align-items-center">
+                            <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                                <a class="block-one" href="index.html">
+                                    <img loading="lazy" src="/Layout/images/logo.png" alt="MBS">
+                                </a>
+                            </div><!-- logo end -->
+                            <div class="col-lg-9 header-right">
+                                <ul class="top-info-box">
+                                    <li>
+                                        <div class="info-box">
+                                            <div class="info-box-content">
+                                                <p class="info-box-title">Call Us</p>
+                                                <p class="info-box-subtitle" href="Contact.html">(+27)799599877</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-box">
+                                            <div class="info-box-content">
+                                                <p class="info-box-title">Email Us</p>
+                                                <p class="info-box-subtitle" href="contact.html">info@mbservicesinfo.co.za</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-get-a-quote">
+                                        <div class=" btn-primary border"><a href="https://mbopperationmanagemntsystem20250726025933.azurewebsites.net/">Login</a></div>
+                                    </li>
+                                </ul><!-- Ul end -->
+                            </div><!-- header right end -->
+                        </div><!-- logo area end -->
+
+                    </div><!-- Row end -->
+                </div><!-- Container end -->
+            </div>
+            <div class="site-navigation">
+                <div class="container_box">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div id="navbar-collapse" class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav mr-auto">
+                                        <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
+                                        <li class="nav-item"><a href="About.html" class="nav-link">About Us</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects</a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">All Projecct</a></li>
+                                                <li><a href="#">Single Projects</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                                            <ul class="dropdown-menu" role="menu"> 
+                                                <li><a href="#">Architecturel Design</a></li>
+                                                <li><a href="#">Site Inspection</a></li> 
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown">Construction</a>
+                                                    <ul class="dropdown-menu"> 
+                                                        <li><a href="#">Building Developments</a></li>
+                                                        <li><a href="#">Roofing Structures</a></li>
+                                                        <li><a href="#">Renovatons</a></li>
+                                                        <li><a href="#">Tiles Fitter</a></li>
+                                                        <li><a href="#">Plumbing</a></li>
+                                                        <li><a href="#">Ceiling Board</a></li> 
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a href="http://mbopperationmanagemntsystem20250726025933.azurewebsites.net/Home/Investors" class="nav-link dropdown-toggle" data-toggle="dropdown">Investors</a>
+                                            <ul class="dropdown-menu" role="menu"> 
+                                                <li><a href="http://mbopperationmanagemntsystem20250726025933.azurewebsites.net/Home/Investors">Investors</a></li>   
+                                                <li class="dropdown-submenu">
+                                                    <a href="#!" class="dropdown-toggle" data-toggle="dropdown">Financials</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Performance review</a></li> 
+                                                        <li><a href="http://mbopperationmanagemntsystem20250726025933.azurewebsites.net/FinancialReports/ClientIndex">Financial Director's Report</a></li> 
+                                                        <li><a href="http://mbopperationmanagemntsystem20250726025933.azurewebsites.net/FinancialReports/Report">Financial Reports</a></li>  
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Careers</a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="http://mbopperationmanagemntsystem20250726025933.azurewebsites.net/Available_Job/ClientIndex">Job Opportunities</a></li>  
+                                                <li><a href="#">Internship & Training</a></li>  
+                                                <li><a href="#">Bursaries</a></li>  
+                                                <li><a href="#">Vacation Work</a></li>  
+                                                <li><a href="#">Apprenticeships</a></li>  
+                                                <li><a href="#">Donation</a></li>    
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li> 
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!--/ Col end -->
+                    </div>
+                </div>
+                <!--/ Container end -->
+
+            </div>
+            <!--/ Navigation end -->
+        </header> 
+<!--/ Header end -->
+<div id="banner-area" class="banner-area" style="background-image:url(../../Layout/images/projects/Construction/BuildingSlab.jpg)">
+    <div class="banner-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-heading">
+                     
+                    </div>
+                </div><!-- Col end -->
+            </div><!-- Row end -->
+        </div><!-- Container end -->
+    </div><!-- Banner text end -->
+</div><!-- Banner area end -->
+<br />
+<br />
+<br />
+<br />
+<br />
+<section class="call-to-action-box no-padding">
+    <div class="container">
+        <div class="post-tags"> 
+            <a href="#">Back</a></li>  
+            <a href="#">Financial Report</a>
+            <a href="#">Director Report</a> 
+            <a href="#">Available Shares</a>  
+        </div>
+    </div><!-- Container end -->
+</section><!-- Action end -->
+
+<section id="main-container" class="main-container pb-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="ts-service-box"> 
+                    <div class="ts-service-image-wrapper">
+                         <img loading="lazy" class="w-100" src="Layout/images/projects/Construction/Ceilngboard.jpg"  alt="service-image">  
+                    </div>
+                    <div class="d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../../Layout/images/icon-image/service-icon1.png" alt="service-icon">
+                        </div>
+                        <div class="ts-service-info">
+                            <h3 class="service-box-title"><a href="service-single.html">Tiles</a></h3>
+                            <p>The tiling project for the residential property at Mabuye Esikhawini 3887 has been successfully completed. </p>
+    
+                            <a style="text-transform:uppercase" class="learn-more d-inline-block" aria-label="service-details"><i class="fa fa-caret-right"></i> LEARN MORE</a>
+                        </div>
+                    </div>
+                </div><!-- Service1 end -->
+            </div><!-- Col 1 end -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="ts-service-box">
+                    <div class="ts-service-image-wrapper"> 
+                        <img loading="lazy" class="w-100" src="Layout/images/projects/Construction/Ceilngboard.jpg"  alt="service-image">  
+                    </div>
+                    <div class="d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../../Layout/images/icon-image/service-icon2.png" alt="service-icon">
+                        </div>
+                        <div class="ts-service-info">
+                            <h3 class="service-box-title"><a href="service-single.html">Ceiling Board</a></h3>
+                            <p>
+                                The ceiling board installation was successfully completed to the satisfaction of the client. The result is a durable, level, and aesthetically pleasing ceiling system that meets both functional and design specifications.<o:p></o:p></p>
+                            <p data-end="1929" data-start="1842">
+                                All work was carried out in accordance with relevant safety and construction standards.<o:p></o:p></p>
+                            <p>&nbsp;</p>
+                            <a class="learn-more d-inline-block" href="services.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+                             
+                        </div>
+                    </div>
+                </div><!-- Service2 end -->
+            </div><!-- Col 2 end -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="ts-service-box">
+                    <div class="ts-service-image-wrapper">
+                       <img loading="lazy" class="w-100" src="Layout/images/projects/Construction/Ceilngboard.jpg"  alt="service-image">   
+                    </div>
+                    <div class="d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../../Layout/images/icon-image/service-icon3.png" alt="service-icon">
+                        </div>
+                        <div class="ts-service-info">
+                            <h3 class="service-box-title"><a href="service-single.html">Build To Last</a></h3>
+                            <p>
+                                <span>We are pleased to report the successful completion of a full house construction project for Mr TS Mkhwanazi<b>,</b> located at Durban.The project involved the design, planning, and construction of a modern residential home built to high standards of quality, comfort, and durability.<o:p></o:p></span></p>
+                            <p>&nbsp;</p>
+                            <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+                        </div>
+                    </div>
+                </div><!-- Service3 end -->
+            </div><!-- Col 3 end -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="ts-service-box">
+                    <div class="ts-service-image-wrapper">
+                        <img loading="lazy" class="w-100" src="Layout/images/projects/Construction/Ceilngboard.jpg"  alt="service-image">  
+                    </div>
+                    <div class="d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../../Layout/images/icon-image/service-icon4.png" alt="service-icon">
+                        </div>
+                        <div class="ts-service-info">
+                            <h3 class="service-box-title"><a href="service-single.html">Exterior Design</a></h3>
+                            <p>This project involved the planning, architectural design, and construction of a 5-room residential house tailored to meet the functional and aesthetic needs of a modern family. The house combines open living spaces with private rooms, ensuring both comfort and practicality. The project has been successfully completed and delivered in accordance with approved plans, building regulations, and client expectations.</p>
+                            <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+                        </div>
+                    </div>
+                </div><!-- Service1 end -->
+            </div><!-- Col 4 end -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="ts-service-box">
+                    <div class="ts-service-image-wrapper">
+                        <img loading="lazy" class="w-100" src="Layout/images/projects/Construction/Ceilngboard.jpg"  alt="service-image">  
+                    </div>
+                    <div class="d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../../Layout/images/icon-image/service-icon5.png" alt="service-icon">
+                        </div>
+                        <div class="ts-service-info">
+                            <h3 class="service-box-title"><a href="service-single.html">Renovation</a></h3>
+                            <p>This project involves the construction of a rear and side extension to the existing residential property located at Free State. The aim of the extension is to increase the internal living space, improve the layout, and enhance the overall functionality and aesthetic of the home. The works will be carried out in accordance with all relevant local building regulations and planning permissions.</p>
+                            <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+                        </div>
+                    </div>
+                </div><!-- Service2 end -->
+            </div><!-- Col 5 end -->
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="ts-service-box">
+                    <div class="ts-service-image-wrapper">
+                       <img loading="lazy" class="w-100" src="Layout/images/projects/Construction/Ceilngboard.jpg"  alt="service-image">  
+                    </div>
+                    <div class="d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../../Layout/images/icon-image/service-icon6.png" alt="service-icon">
+                        </div>
+                        <div class="ts-service-info">
+                            <h3 class="service-box-title"><a href="service-single.html">Roofing</a></h3>
+                            <p>
+                                <span>We are proud to announce the successful completion of a roofing installation project for Roofing installation, located at Richards Bay The project involved the full installation of a durable and weather-resistant roofing system.<o:p></o:p></span></p>
+                            <p>
+                                &nbsp;</p>
+                            <p>&nbsp;</p>
+                            <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+                        </div>
+                    </div>
+                </div><!-- Service3 end -->
+            </div><!-- Col 6 end -->
+
+        </div><!-- Main row end -->
+    </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+                <footer id="footer" class="footer">
+                    <div class="footer-main">
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-lg-4 col-md-6 footer-widget footer-about">
+                                    <h3 class="widget-title">About Us</h3>
+                                    <img loading="lazy" width="150px" class="footer-logo" src="Layout/images/logo.png" alt="MBS">
+                                    <p>
+                                        MB services was established in 2022. We offer a comprehensive range of various services, e.g.,Architectural Design,Construction,and IT Specialist.
+                                    </p>
+                                    <div class="footer-social">
+                                        <ul>
+                                            <li>
+                                                <a href="https://facebook.com/themefisher" aria-label="Facebook">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a aria-label="Instagram">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!-- Footer social end -->
+                                </div><!-- Col end -->
+                
+                                <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+                                    <h3 class="widget-title">Working Hours</h3>
+                                    <div class="working-hours">
+                                        We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
+                                        Hotline and Contact form.
+                                        <br><br> Monday - Friday: <span class="text-right">07:00 - 17:00 </span>
+                                        <br> Saturday: <span class="text-right">08:00 - 13:00</span>
+                                    </div>
+                                </div><!-- Col end -->
+                
+                                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+                                    <h3 class="widget-title">Services</h3>
+                                    <ul class="list-arrow">
+                                        <li><a href="service-single.html">Construction</a></li>
+                                        <li><a href="service-single.html">Architectural Design</a></li>
+                                        <li><a href="service-single.html">Site Inspersion</a></li>
+                                        <li><a href="service-single.html">Safety</a></li>
+                                    </ul>
+                                </div><!-- Col end -->
+                            </div><!-- Row end -->
+                        </div><!-- Container end -->
+                    </div><!-- Footer main end -->
+                
+                </footer><!-- Footer end -->
+
+            </div>
+            <!-- Javascript Files================================================== -->
+     
+            <script src="Layout/plugins/jQuery/jquery.min.js"></script>
+            <script src="Layout/plugins/jQuery/jquery.min.js"></script>
+            <script src="Layout/plugins/jquery-1.10.2.min.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script src="Layout/js/script.js"></script>
+            <script src="Layout/plugins/bootstrap/bootstrap.min.js" defer></script>
+            <!-- Slick Carousel -->
+            <script src="Layout/plugins/slick/slick.min.js"></script>
+            <script src="Layout/plugins/slick/slick-animation.min.js"></script>
+            <!-- Color box -->
+            <script src="Layout/plugins/colorbox/jquery.colorbox.js"></script>
+            <!-- shuffle -->
+            <script src="Layout/plugins/shuffle/shuffle.min.js" defer></script> 
+            <script src="Layout/plugins/jQuery/jquery.min.js"></script>
+            <script src="Layout/js/script.js"></script>
+            <script>
+            </script>
+        </div><!-- Body inner end -->
+    </body> 
+</html>
+
 
